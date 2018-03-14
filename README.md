@@ -28,6 +28,7 @@ npm run build --report
 **username:** john
 **password:** 123
 
-运行地址：http://localhost:8080/#/Login，Vue模板里边，全部用 $store的形式处理，不引入...Map的辅助函数
+运行地址：http://localhost:8080/#/Login
+##Vue模板里边，全部用 $store的形式处理，不引入...Map的辅助函数
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
