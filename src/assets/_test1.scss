@@ -1,0 +1,8 @@
+$color1:#f99;
+.div1{
+  background-color:$color1;
+}
+
+@mixin doSize {
+　　width:100px; height: 100px; border: #ccc solid 1px;
+}
