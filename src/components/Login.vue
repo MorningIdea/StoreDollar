@@ -1,7 +1,7 @@
 <template>
       <div class="loginForm">
         <Loading v-if="$store.state.loadingStatus"></Loading>
-        <h2>{{pageInfo}}</h2>
+        <h3>{{pageInfo}}</h3>
         <div>帐 号：<input type="text" class="iptUser" v-model="$store.state.user.userName"/></div>
         <div>密 码：<input type="password" class="iptUser" v-model="$store.state.user.passWord"/></div>
         <div class="tips">{{$store.state.tips}}</div>
